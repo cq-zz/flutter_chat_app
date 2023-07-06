@@ -59,9 +59,30 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    # 加载页面
+    - images/loading.jpeg
+    # 底部tab切换图片资源
+    - images/contact_list.png
+    - images/profile_normal.png
+    - images/profile_pressed.png
+    - images/message_normal.png
+    - images/message_pressed.png
+    # 菜单按钮
+    - images/icon_menu.png
+    # 好友模块
+    - images/icon_addfriend.png
+    - images/icon_groupchat.png
+    - images/icon_public.png
+    # 我的
+    - images/header.jpeg
+    - images/code.png
+    - images/icon_me_friends.png
+    - images/icon_me_photo.png
+    - images/icon_me_file.png
+    - images/icon_me_service.png
+    - images/icon_me_message.png
+    - images/icon_me_clear.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
