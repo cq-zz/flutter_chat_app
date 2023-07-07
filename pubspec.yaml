@@ -65,11 +65,9 @@ flutter:
     # 加载页面
     - images/loading.jpeg
     # 底部tab切换图片资源
-    - images/contact_list.png
-    - images/profile_normal.png
-    - images/profile_pressed.png
-    - images/message_normal.png
-    - images/message_pressed.png
+    - images/contacts.png
+    - images/profile.png
+    - images/message.png
     # 菜单按钮
     - images/icon_menu.png
     # 好友模块
@@ -82,7 +80,7 @@ flutter:
     - images/icon_me_friends.png
     - images/icon_me_photo.png
     - images/icon_me_file.png
-    - images/icon_me_service.png
+    - images/icon_service.png
     - images/icon_me_message.png
     - images/icon_me_clear.png
 
