@@ -85,7 +85,7 @@ class _AppState extends State<App> {
                     items: <PopupMenuEntry>[
                       _popupMenuItem('发起会话', "images/icon_me_message.png"),
                       _popupMenuItem('添加好友', "images/icon_addfriend.png"),
-                      _popupMenuItem('联系客服', "images/icon_service.png"),
+                      _popupMenuItem('联系客服', "images/icon_me_service.png"),
                     ]);
               },
               child: const Icon(Icons.add),

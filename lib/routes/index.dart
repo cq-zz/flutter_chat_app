@@ -7,7 +7,7 @@ import "../search.dart";
 // 路由
 final routes = <String, WidgetBuilder>{
   "app": (BuildContext context) => const App(),
-  "/flutter": (_) => WebviewScaffold(
+  "/friends": (_) => WebviewScaffold(
         url: "https://flutter.io",
         appBar: AppBar(
           title: const Text("flutter官网"),

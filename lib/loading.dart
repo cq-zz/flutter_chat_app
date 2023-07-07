@@ -15,7 +15,6 @@ class _LoadingState extends State<Loading> {
     super.initState();
     // 在加载页面停留3s
     Future.delayed(const Duration(seconds: 3), () {
-      print("即时通讯APP界面实现...");
       Navigator.of(context).pushReplacementNamed("app");
     });
   }
